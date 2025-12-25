@@ -1,0 +1,21 @@
+{
+  "name": "course-catalog-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "@types/node": "^25.0.3",
+    "axios": "^1.13.2",
+    "typescript": "^5.9.3",
+    "zod": "^4.2.1"
+  }
+}
